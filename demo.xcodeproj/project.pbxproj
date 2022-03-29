@@ -13,6 +13,8 @@
 		047BB3DB27EDA81B002F56CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047BB3D927EDA81B002F56CB /* Main.storyboard */; };
 		047BB3DD27EDA824002F56CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047BB3DC27EDA824002F56CB /* Assets.xcassets */; };
 		047BB3E027EDA824002F56CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047BB3DE27EDA824002F56CB /* LaunchScreen.storyboard */; };
+		047BB3E827EDA9A1002F56CB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BB3E727EDA9A1002F56CB /* TableViewCell.swift */; };
+		047BB3EA27EDB0E9002F56CB /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BB3E927EDB0E9002F56CB /* VC2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		047BB3DC27EDA824002F56CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047BB3DF27EDA824002F56CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047BB3E127EDA824002F56CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047BB3E727EDA9A1002F56CB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		047BB3E927EDB0E9002F56CB /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				047BB3DC27EDA824002F56CB /* Assets.xcassets */,
 				047BB3DE27EDA824002F56CB /* LaunchScreen.storyboard */,
 				047BB3E127EDA824002F56CB /* Info.plist */,
+				047BB3E727EDA9A1002F56CB /* TableViewCell.swift */,
+				047BB3E927EDB0E9002F56CB /* VC2.swift */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				047BB3D827EDA81B002F56CB /* ViewController.swift in Sources */,
+				047BB3E827EDA9A1002F56CB /* TableViewCell.swift in Sources */,
+				047BB3EA27EDB0E9002F56CB /* VC2.swift in Sources */,
 				047BB3D427EDA81B002F56CB /* AppDelegate.swift in Sources */,
 				047BB3D627EDA81B002F56CB /* SceneDelegate.swift in Sources */,
 			);
@@ -287,12 +295,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B62S6KVH5V;
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Tarun.demo;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tarun-15.demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,12 +315,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B62S6KVH5V;
 				INFOPLIST_FILE = demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Tarun.demo;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Tarun-15.demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
